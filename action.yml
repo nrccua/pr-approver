@@ -1,0 +1,16 @@
+name: PR Approver
+description: Github action to auto-approve PRs based on labels
+author: NRCCUA
+inputs:
+  token:
+    description: "Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}"
+    required: true
+  label-list:
+    description: "Comma-separated list of labels that enable a PR approval. Example: test,demo,prep"
+    required: true
+  label-exclusion-list:
+    description: "Comma-separated list of labels that block a PR approval. Example: conflicts,error,temp"
+    required: false
+runs:
+  using: node12
+  main: dist/index.js
