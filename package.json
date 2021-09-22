@@ -12,6 +12,7 @@
     "Thiago L. Lima <tlima@daitan.com>",
     "Fabricio Montagnani <fmontagnani@daitan.com>"
   ],
+  "license": "MIT",
   "dependencies": {
     "@actions/core": "1.5.0",
     "@actions/github": "5.0.0"
