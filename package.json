@@ -1,6 +1,6 @@
 {
   "name": "pr-approver",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Github action to auto-approve PRs based on labels",
   "main": "dist/index.js",
   "scripts": {
@@ -10,12 +10,13 @@
   "author": "NRCCUA",
   "contributors": [
     "Thiago L. Lima <tlima@daitan.com>",
-    "Fabricio Montagnani <fmontagnani@daitan.com>"
+    "Fabricio Montagnani <fmontagnani@daitan.com>",
+    "Kelly Summerlin <kelly.summerlin@encoura.org>"
   ],
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "1.5.0",
-    "@actions/github": "5.0.0"
+    "@actions/core": "1.10.0",
+    "@actions/github": "5.1.1"
   },
   "devDependencies": {
     "@vercel/ncc": "0.31.1"

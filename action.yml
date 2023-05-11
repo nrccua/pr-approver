@@ -12,5 +12,5 @@ inputs:
     description: "Comma-separated list of labels that block a PR approval. Example: conflicts,error,temp"
     required: false
 runs:
-  using: node12
+  using: node16
   main: dist/index.js
